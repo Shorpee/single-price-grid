@@ -1,15 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap'); 22
 
 :root {
     --primary-cyan:  hsl(179, 62%, 43%);
     --primary-light-cyan:  hsl(179, 62%, 57%);
     --primary-bright-yellow: hsl(71, 73%, 54%);
     --neutral-light-gray: hsl(204, 43%, 93%);
-    --neutral-grayish-blue: hsl(218, 22%, 67%);
+    --neutral-grayish-blue: hsl(218, 44%, 90%);
 }
 
 *{
     font-size: 16px;
     font-family: 'Karla', sans-serif;
+}
 
+body{
+    background: var(--neutral-grayish-blue);
+    max-width: 960px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+li{
+    list-style: none;
 }
